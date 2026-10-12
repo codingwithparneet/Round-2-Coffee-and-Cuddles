@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee & Cuddles | Specialty Coffee House · Rajpur Road, Dehradun</title>
+  <meta name="description" content="A quiet, warm specialty coffee house on Rajpur Road, Dehradun. Founded by Digvijay Kaushal & Vaishnavi Sharma. Every cup, a different corner of the world.">
+
+  <!-- Google Fonts: Editorial Playfair & Modern Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22serif%22 fill=%22%23764423%22>☕</text></svg>">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Site Navigation Bar
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="nav-container">
+      <a href="#home" class="brand-link" aria-label="Coffee and Cuddles Home">
+        <div class="brand-monogram" aria-hidden="true">C&C</div>
+        <div class="brand-text">
+          <span class="brand-name">Coffee & Cuddles</span>
+          <span class="brand-sub">Rajpur Road · Dehradun</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#story">Our Story</a></li>
+          <li class="nav-item"><a href="#glance">The Cafe</a></li>
+          <li class="nav-item"><a href="#menu">Menu</a></li>
+          <li class="nav-item"><a href="#world-map">Origins</a></li>
+          <li class="nav-item"><a href="#space">The Space</a></li>
+          <li class="nav-item"><a href="#workshops">Workshops</a></li>
+          <li class="nav-item"><a href="#visit">Visit Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Live Open / Closed Status Badge -->
+        <div class="status-badge live-status-target open" title="Operating Hours: 8:00 AM - 10:00 PM">
+          <span class="status-dot"></span>
+          <span class="status-text">Open · Closes 10 PM</span>
+        </div>
+
+        <!-- Phone dialler shortcut -->
+        <a href="tel:+919800000000" class="btn-dialler" title="Call or WhatsApp us directly">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span class="dialler-number">+91 98XXX XXXXX</span>
+        </a>
+
+        <!-- Quick Reserve Button -->
+        <a href="#reservations" class="btn-header-reserve">Reserve</a>
+
+        <!-- Light / Dark Espresso Mode Toggle -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme Mode">
+          <!-- Moon Icon for Light Mode -->
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon for Dark Mode -->
+          <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Mobile Navigation Burger -->
+        <button class="mobile-nav-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       1. Hero Section
+       ======================================================================== -->
+  <main id="main-content">
+    <section id="home" class="hero-section" aria-label="Hero Introduction">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content fade-in-section">
+          <div class="hero-welcome-badge">
+            <span aria-hidden="true">✦</span> Specialty Coffee House · Est. Rajpur Road
+          </div>
+          <h1 class="hero-title">Coffee & <span>Cuddles</span></h1>
+          <p class="hero-tagline">“Every cup, a different corner of the world”</p>
+          <p class="hero-desc">
+            A quiet sanctuary nestled beneath the Mussoorie foothills. Crafted by former diplomat Digvijay and photographer Vaishnavi, bringing twenty years of global coffee journeys to Dehradun. We invite you to slow down, sit by the window, and taste somewhere new.
+          </p>
+
+          <!-- Opening Hours & Status -->
+          <div class="hero-hours-pill">
+            <svg class="hours-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <div class="hours-text">
+              <strong>Open 8:00 AM – 10:00 PM</strong>
+              <span>Welcoming you all seven days of the week</span>
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="hero-cta-group">
+            <a href="#reservations" class="btn btn-primary">
+              Reserve a Table
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#menu" class="btn btn-secondary">Explore the Menu</a>
+            <a href="#story" class="btn btn-secondary">Read Our Story</a>
+          </div>
+        </div>
+
+        <div class="hero-visual-card fade-in-section">
+          <div class="hero-image-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80" 
+              alt="Sunlit specialty coffee brewing quietly at Coffee and Cuddles"
+              loading="eager"
+            >
+          </div>
+          <div class="hero-quote-badge">
+            <p>“We know beans and brewing. We wanted our home to feel quiet, warm and beautifully simple.”</p>
+            <cite>— Digvijay & Vaishnavi</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Bonus Feature: Coffee of the Month
+         ======================================================================== -->
+    <section class="section-featured fade-in-section" aria-label="Coffee of the Month">
+      <div class="container">
+        <div class="featured-box">
+          <div class="featured-image-box">
+            <img 
+              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80" 
+              alt="Traditional Ethiopian Coffee Ceremony brewing in clay jebena"
+              loading="lazy"
+            >
+            <span class="featured-stamp">Coffee of the Month</span>
+          </div>
+          <div class="featured-content">
+            <div class="featured-meta">
+              <span>Traditional Ritual</span>
+              <span>·</span>
+              <span>Addis Ababa, Ethiopia</span>
+            </div>
+            <h2 class="featured-title">Ethiopian Coffee Ceremony</h2>
+            <div class="featured-notes">Floral, fruity and spiced, poured slowly from a clay pot</div>
+            <p class="featured-narrative">
+              “Our first overseas posting together in 2004 was Addis Ababa. We sat on freshly cut grass rushes as our neighbor roasted green heirloom beans over charcoal embers, brewing in a terracotta jebena while sweet frankincense drifted through the air. It was the moment coffee stopped being routine and became ritual.”
+            </p>
+            <div class="featured-badges">
+              <span class="badge-tag">☕ Hand-roasted green heirloom</span>
+              <span class="badge-tag">🌿 Frankincense aroma</span>
+              <span class="badge-tag">✨ Poured in 3 ceremonial cups</span>
+            </div>
+            <div style="margin-top: 1.5rem;">
+              <a href="#menu" class="btn btn-secondary btn-sm" onclick="highlightInMenu('ethiopian-coffee-ceremony')">
+                View in Menu Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. Our Story Section
+         ======================================================================== -->
+    <section id="story" class="section-story" aria-label="Our Story">
+      <div class="container">
+        <div class="story-header center-block text-center fade-in-section">
+          <span class="section-eyebrow">The Founders’ Journey</span>
+          <h2 class="section-title">Two Decades, Sixty Countries, One Table</h2>
+          <p class="section-subtitle center-block">
+            Your hosts are Digvijay Kaushal and Vaishnavi Sharma. A married couple who met over library books at JNU, traveled the globe for twenty years in the diplomatic service, and have returned to Dehradun to brew with stillness and intent.
+          </p>
+        </div>
+
+        <div class="story-dialogue-wrapper">
+          <!-- Passage 1: Digvijay -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                  alt="Digvijay Kaushal, Co-Founder"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Digvijay Kaushal</h3>
+              <span class="story-speaker-role">Diplomat & Brewer</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “I grew up in Malaud, a small town in Punjab where the biggest adventure was the bus to Ludhiana. At 18 I reached JNU in Delhi to study international relations, with one suitcase and a lot of nerves. In my first week, a girl from Dehradun in the library corrected my reading list. That was Vaishnavi.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 2: Vaishnavi -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" 
+                  alt="Vaishnavi Sharma, Co-Founder"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Vaishnavi Sharma</h3>
+              <span class="story-speaker-role">Historian & Photographer</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “I was studying history and spending more time with a camera than with my books. Digvijay was the quiet one at the Ganga Dhaba who could argue about foreign policy for hours and forget to eat. After three years of late-night chai, we were inseparable.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 3: Digvijay Diplomatic Postings -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                  alt="Digvijay Kaushal"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Digvijay Kaushal</h3>
+              <span class="story-speaker-role">Indian Foreign Service</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “I cleared the civil services exam and joined the Indian Foreign Service. For twenty years we lived wherever the government posted me: Addis Ababa, Rome, Hanoi, Bogota and more. Vaishnavi came to every one and turned each posting into a photo series.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 4: Vaishnavi 60 countries coffee -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" 
+                  alt="Vaishnavi Sharma"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Vaishnavi Sharma</h3>
+              <span class="story-speaker-role">Curator</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “Between postings and holidays we visited more than sixty countries, and in each one our day began the same way: finding the best cup of coffee in town. A tiny stall in Addis Ababa, where beans are roasted in front of you and served with incense. A quiet bar in Trieste. A rooftop in Medellin. A farmhouse in Coorg at six in the morning.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 5: Digvijay Coffee Growers -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                  alt="Digvijay Kaushal"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Digvijay Kaushal</h3>
+              <span class="story-speaker-role">Roaster</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “Somewhere along the way, coffee stopped being a drink and became our way of understanding a place. Every cup has a farmer, a mountain and a story behind it. We started carrying a hand grinder, then a scale, then a small roaster, and we learned from growers in Ethiopia, Colombia, Vietnam and Yemen.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 6: Vaishnavi Coming Home to Dehradun -->
+          <article class="story-passage fade-in-section">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" 
+                  alt="Vaishnavi Sharma"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Vaishnavi Sharma</h3>
+              <span class="story-speaker-role">Dehradun Native</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “After twenty years, Digvijay took voluntary retirement from the service and we asked ourselves where we wanted to stop. The answer was easy. Dehradun is my hometown, with the hills, the cool mornings and the unhurried pace we spent two decades looking for. It is also a short drive from Mussoorie, where Digvijay spent his first year of training.”
+              </p>
+            </div>
+          </article>
+
+          <!-- Passage 7: The Opening of Coffee and Cuddles -->
+          <article class="story-passage fade-in-section" style="border-left: 3px solid var(--color-coffee);">
+            <div class="story-speaker-col">
+              <div class="story-speaker-avatar">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                  alt="Digvijay Kaushal"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="story-speaker-name">Digvijay Kaushal</h3>
+              <span class="story-speaker-role">Co-Founder</span>
+            </div>
+            <div class="story-text-col">
+              <p>
+                “Coffee and Cuddles is our small corner of the world, open this winter on Rajpur Road. Every coffee on our menu is inspired by a place we have loved. We want guests to slow down, sit by the window and taste somewhere new.”
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Milestones Strip -->
+        <div class="story-stats-strip fade-in-section">
+          <div class="story-stat-card">
+            <div class="story-stat-number">20</div>
+            <div class="story-stat-label">Years of Service</div>
+          </div>
+          <div class="story-stat-card">
+            <div class="story-stat-number">60+</div>
+            <div class="story-stat-label">Countries Explored</div>
+          </div>
+          <div class="story-stat-card">
+            <div class="story-stat-number">21</div>
+            <div class="story-stat-label">Origin-Inspired Coffees</div>
+          </div>
+          <div class="story-stat-card">
+            <div class="story-stat-number">40</div>
+            <div class="story-stat-label">Calm Seats in Doon</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         The Cafe at a Glance
+         ======================================================================== -->
+    <section id="glance" class="section-glance" aria-label="Cafe at a Glance">
+      <div class="container">
+        <div class="text-center fade-in-section">
+          <span class="section-eyebrow">Essential Information</span>
+          <h2 class="section-title">The Cafe at a Glance</h2>
+          <p class="section-subtitle center-block">
+            Everything you need to know about our peaceful coffee house before your visit.
+          </p>
+        </div>
+
+        <div class="glance-grid">
+          <!-- Card 1: Location -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <span class="glance-card-title">Location</span>
+            <h3 class="glance-card-main">Rajpur Road, Dehradun</h3>
+            <p class="glance-card-desc">Set along the scenic ascent toward Mussoorie, Uttarakhand. Quiet pine views and unhurried fresh air.</p>
+          </div>
+
+          <!-- Card 2: Opening Hours -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <span class="glance-card-title">Opening Hours</span>
+            <h3 class="glance-card-main">8:00 AM – 10:00 PM</h3>
+            <p class="glance-card-desc">Open all seven days of the week. Fresh morning roasts served through quiet evening jazz.</p>
+          </div>
+
+          <!-- Card 3: Seating -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <span class="glance-card-title">Seating Capacity</span>
+            <h3 class="glance-card-main">40 Curated Seats</h3>
+            <p class="glance-card-desc">Divided between our calm main room, a solitary window bar, and an open garden terrace with hill views.</p>
+          </div>
+
+          <!-- Card 4: Coffee Roast -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <span class="glance-card-title">Roasting Philosophy</span>
+            <h3 class="glance-card-main">In-House Small Batch</h3>
+            <p class="glance-card-desc">Single-origin beans roasted weekly in our small drum roaster to capture origin notes without burnt bitterness.</p>
+          </div>
+
+          <!-- Card 5: Atmosphere -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="5.5" cy="17.5" r="2.5"></circle>
+                <circle cx="17.5" cy="15.5" r="2.5"></circle>
+                <path d="M8 17V5l12-2v12"></path>
+              </svg>
+            </div>
+            <span class="glance-card-title">Atmosphere</span>
+            <h3 class="glance-card-main">Quiet, Warm & Unhurried</h3>
+            <p class="glance-card-desc">Soft vinyl jazz, natural light, and strictly no loud music or frantic rushes. A true slow space.</p>
+          </div>
+
+          <!-- Card 6: Facilities -->
+          <div class="glance-card fade-in-section">
+            <div class="glance-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+            </div>
+            <span class="glance-card-title">Guest Facilities</span>
+            <h3 class="glance-card-main">Considered Amenities</h3>
+            <p class="glance-card-desc">High-speed Wi-Fi, pet-friendly garden terrace, travel library, fresh retail bean pouches, and free parking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. The Coffee Menu
+         ======================================================================== -->
+    <section id="menu" class="section-menu" aria-label="The Coffee Menu">
+      <div class="container">
+        <div class="menu-intro-bar fade-in-section">
+          <div>
+            <span class="section-eyebrow">The Heart of Coffee & Cuddles</span>
+            <h2 class="section-title">The Coffee Menu</h2>
+            <p class="section-subtitle">
+              Every coffee is inspired by a place we lived, visited, or fell in love with during our twenty years overseas.
+            </p>
+          </div>
+
+          <!-- Search Box -->
+          <div class="menu-search-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              id="menu-search-input" 
+              class="menu-search-input" 
+              placeholder="Search coffee, city, notes..."
+              aria-label="Search coffees"
+            >
+          </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="menu-controls fade-in-section">
+          <!-- Category Filter Pills -->
+          <div class="filter-scroll-wrapper">
+            <div class="filter-pills-row" id="category-filter-pills" role="tablist" aria-label="Coffee Categories">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+
+          <!-- Tasting Note Profile Filter -->
+          <div class="notes-filter-row" id="notes-filter-pills" role="toolbar" aria-label="Filter by tasting note profile">
+            <span class="notes-label">Tasting Profile:</span>
+            <!-- Dynamically populated via JS -->
+          </div>
+        </div>
+
+        <!-- Mandatory Notice: NO PRICES ON THE SITE -->
+        <div class="menu-notice-banner fade-in-section">
+          <span>
+            <strong>A Note on Our Menu:</strong> In keeping with our unhurried hospitality, prices are not listed online. You are warmly invited to see the daily board at the counter when you arrive on Rajpur Road.
+          </span>
+          <span id="menu-visible-count" style="font-size: 0.8rem; font-weight: 600; color: var(--color-coffee); white-space: nowrap;">21 coffees</span>
+        </div>
+
+        <!-- Coffee Items Grid -->
+        <div class="menu-grid" id="menu-items-grid" aria-live="polite">
+          <!-- Populated from js/menu-data.js -->
+        </div>
+
+        <!-- Also on the menu note from brief -->
+        <div class="also-on-menu-box fade-in-section">
+          <div>
+            <h3 class="also-title">Also on the Menu</h3>
+            <p class="also-text">
+              Beyond coffee, our counter prepares single-estate organic teas, single-origin melted hot chocolate, fresh morning pastries baked daily, hand-pressed artisanal sandwiches, and a selection of light savory plates.
+            </p>
+          </div>
+          <a href="#reservations" class="btn btn-secondary btn-sm" style="white-space: nowrap;">Ask at Counter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Bonus Feature: Interactive World Coffee Map
+         ======================================================================== -->
+    <section id="world-map" class="section-world-map" aria-label="World Coffee Origins Map">
+      <div class="container">
+        <div class="text-center fade-in-section" style="margin-bottom: 3rem;">
+          <span class="section-eyebrow">The Diplomatic Map</span>
+          <h2 class="section-title">Where Each Coffee Comes From</h2>
+          <p class="section-subtitle center-block">
+            From the bustling kissatens of Tokyo to the terracotta jebenas of Addis Ababa. Tap any glowing pin across the globe to discover how that city inspired our cup.
+          </p>
+        </div>
+
+        <div class="map-card-container fade-in-section">
+          <div class="map-header-inner">
+            <div class="map-legend">
+              <span class="legend-item"><span class="legend-dot"></span> Global Inspiration</span>
+              <span class="legend-item"><span class="legend-home-dot"></span> Home: Rajpur Road, Dehradun</span>
+            </div>
+            <span style="font-size: 0.8rem; color: var(--text-muted); font-style: italic;">Interactive: Click any pin or city below</span>
+          </div>
+
+          <div class="world-map-svg-wrap">
+            <svg class="world-map-svg" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet" aria-label="Interactive World Map">
+              <!-- World Continent Outlines (Stylized Minimalist SVG Geometries) -->
+              <g class="map-land">
+                <!-- North America -->
+                <path d="M120,80 L220,70 L260,95 L280,150 L260,190 L210,185 L180,240 L160,250 L140,200 L110,170 L90,120 Z" />
+                <path d="M220,190 L270,195 L290,230 L250,250 L220,220 Z" />
+                <!-- South America -->
+                <path d="M250,260 L320,270 L350,330 L320,420 L280,450 L260,380 L240,300 Z" />
+                <!-- Europe -->
+                <path d="M460,75 L520,70 L550,110 L520,150 L480,165 L445,150 L440,110 L455,90 Z" />
+                <path d="M480,150 L520,155 L515,185 L475,180 Z" />
+                <!-- Africa -->
+                <path d="M460,190 L560,190 L610,270 L580,360 L520,420 L470,360 L450,260 Z" />
+                <path d="M605,330 L625,350 L615,385 L595,365 Z" />
+                <!-- Asia -->
+                <path d="M560,80 L720,70 L830,120 L870,190 L820,240 L760,245 L730,290 L660,290 L640,240 L560,160 Z" />
+                <path d="M650,230 L710,235 L710,310 L660,310 Z" />
+                <path d="M780,260 L830,270 L820,330 L765,310 Z" />
+                <!-- Japan -->
+                <path d="M860,160 L885,180 L870,220 L855,190 Z" />
+                <!-- Australia -->
+                <path d="M780,360 L870,350 L890,410 L840,460 L780,430 Z" />
+              </g>
+
+              <!-- Subtle Latitude/Longitude Grid -->
+              <line x1="0" y1="250" x2="1000" y2="250" class="map-grid-line" />
+              <line x1="500" y1="0" x2="500" y2="500" class="map-grid-line" />
+
+              <!-- Dynamic Interactive Pins Layer -->
+              <g id="map-pins-layer">
+                <!-- Injected via JavaScript from coordinates in js/menu-data.js -->
+              </g>
+            </svg>
+
+            <!-- Floating Selected City Popup Card -->
+            <div id="map-story-popup" class="map-story-popup" role="region" aria-live="polite">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+
+          <!-- Quick City Filter Pills -->
+          <div class="map-cities-strip" id="map-cities-strip">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. The Space (Editorial Magazine Spread)
+         ======================================================================== -->
+    <section id="space" class="section-space" aria-label="The Cafe Space Gallery">
+      <div class="container">
+        <div class="text-center fade-in-section">
+          <span class="section-eyebrow">Rajpur Road Sanctuary</span>
+          <h2 class="section-title">The Space</h2>
+          <p class="section-subtitle center-block">
+            Captured as an editorial magazine spread. Sunlight on warm teak, mist rising towards Mussoorie, shelves of seasoned travel journals, and the unhurried bloom of fresh coffee.
+          </p>
+        </div>
+
+        <div class="magazine-grid">
+          <!-- Item 1: Window Bar Large -->
+          <div class="magazine-item magazine-item-1 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" 
+              alt="Sunlit window bar overlooking green Rajpur hills"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">The Window Bar at Sunrise</h3>
+              <span class="magazine-caption-sub">Rajpur Road · Solitary Reading & Pour Overs</span>
+            </div>
+          </div>
+
+          <!-- Item 2: Terrace -->
+          <div class="magazine-item magazine-item-2 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" 
+              alt="Garden terrace with panoramic views of Mussoorie foothills"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">Garden Terrace & Hill Views</h3>
+              <span class="magazine-caption-sub">Pet-Friendly Veranda · Mountain Mist</span>
+            </div>
+          </div>
+
+          <!-- Item 3: Coffee Bar -->
+          <div class="magazine-item magazine-item-3 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" 
+              alt="Artisan ceramic cups and espresso bar extraction"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">The Brew Bar</h3>
+              <span class="magazine-caption-sub">Precision Scales & Hand-Hammered Cezve</span>
+            </div>
+          </div>
+
+          <!-- Item 4: Travel Library -->
+          <div class="magazine-item magazine-item-4 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" 
+              alt="Small shelf of curated world travel books and roasted beans"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">The Travel Library</h3>
+              <span class="magazine-caption-sub">Curated Dog-Eared Paperbacks & Atlases</span>
+            </div>
+          </div>
+
+          <!-- Item 5: Terrace with pet -->
+          <div class="magazine-item magazine-item-5 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" 
+              alt="Ceramic cup of cappuccino with velvety microfoam"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">The Morning Microfoam</h3>
+              <span class="magazine-caption-sub">Florence Style Cappuccino · In-House Roast</span>
+            </div>
+          </div>
+
+          <!-- Item 6: Roasting Corner -->
+          <div class="magazine-item magazine-item-6 fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=800&q=80" 
+              alt="Small drum roaster with golden roasted single origin beans"
+              loading="lazy"
+            >
+            <div class="magazine-caption-overlay">
+              <h3 class="magazine-caption-title">The Weekly Roasting Corner</h3>
+              <span class="magazine-caption-sub">Single Origins from Coorg to Yirgacheffe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Home Brewing Classes
+         ======================================================================== -->
+    <section id="workshops" class="section-workshops fade-in-section" aria-label="Home Brewing Workshops">
+      <div class="container">
+        <div class="workshop-card">
+          <div class="workshop-content">
+            <span class="section-eyebrow">Monthly Weekend Masterclass</span>
+            <h2 class="section-title">Home Brewing Workshops</h2>
+            <p class="section-subtitle">
+              Digvijay and Vaishnavi host an intimate weekend gathering once a month to share what two decades of carrying hand grinders and scales across sixty countries taught them about unlocking coffee at home.
+            </p>
+
+            <div class="workshop-perks">
+              <div class="workshop-perk-item">
+                <span class="perk-check" aria-hidden="true">✓</span>
+                <div>
+                  <div class="perk-title">Grind Calibration & Extraction</div>
+                  <div class="perk-desc">Mastering burr settings, water temperature, and brew ratios.</div>
+                </div>
+              </div>
+              <div class="workshop-perk-item">
+                <span class="perk-check" aria-hidden="true">✓</span>
+                <div>
+                  <div class="perk-title">Pour Over & AeroPress Rituals</div>
+                  <div class="perk-desc">Hands-on V60 flow-rate technique and immersion brewing.</div>
+                </div>
+              </div>
+              <div class="workshop-perk-item">
+                <span class="perk-check" aria-hidden="true">✓</span>
+                <div>
+                  <div class="perk-title">Origin Cupping & Tasting</div>
+                  <div class="perk-desc">Sensory profiling of African, South American, and Indian beans.</div>
+                </div>
+              </div>
+              <div class="workshop-perk-item">
+                <span class="perk-check" aria-hidden="true">✓</span>
+                <div>
+                  <div class="perk-title">Complimentary Retail Bean Pouch</div>
+                  <div class="perk-desc">Take home 250g of our freshly roasted Coorg Hills Special.</div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#reservations" class="btn btn-primary btn-sm">Reserve Workshop Seat</a>
+          </div>
+
+          <div class="workshop-sidebar">
+            <span class="sidebar-badge">Strictly Limited</span>
+            <div class="sidebar-info-row">
+              <div class="sidebar-info-label">Group Size</div>
+              <div class="sidebar-info-val">Limited to 8 Guests Only</div>
+            </div>
+            <div class="sidebar-info-row">
+              <div class="sidebar-info-label">Schedule</div>
+              <div class="sidebar-info-val">First Saturday & Sunday / Month</div>
+            </div>
+            <div class="sidebar-info-row">
+              <div class="sidebar-info-label">Timings</div>
+              <div class="sidebar-info-val">10:30 AM – 1:00 PM</div>
+            </div>
+            <div class="sidebar-info-row">
+              <div class="sidebar-info-label">Hosted By</div>
+              <div class="sidebar-info-val">Digvijay Kaushal</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. Table Reservation Form
+         - Strictly adheres to all specs from Brief Page 5
+         ======================================================================== -->
+    <section id="reservations" class="section-reservations" aria-label="Table Reservations">
+      <div class="container reservation-container">
+        <div class="text-center fade-in-section" style="margin-bottom: 3.5rem;">
+          <span class="section-eyebrow">Join Us in Dehradun</span>
+          <h2 class="section-title">Reserve a Table</h2>
+          <p class="section-subtitle center-block">
+            Whether for solitary contemplation by the window, an afternoon date, or coffee on our mountain terrace with your companion. We will keep your table waiting.
+          </p>
+        </div>
+
+        <div class="reservation-card fade-in-section">
+          <!-- 1. The Active Form Wrapper -->
+          <div id="reservation-form-wrapper">
+            <form id="table-reservation-form" novalidate>
+              <div class="form-grid">
+
+                <!-- Full Name (Required) -->
+                <div class="form-group">
+                  <label for="res-name" class="form-label">
+                    <span>Full Name <span class="req-star" aria-hidden="true">*</span></span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="res-name" 
+                    name="full_name" 
+                    class="form-control" 
+                    placeholder="e.g. Parneet Kaur" 
+                    required 
+                    autocomplete="name"
+                  >
+                  <span id="res-name-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Phone Number (Required, 10 digits) -->
+                <div class="form-group">
+                  <label for="res-phone" class="form-label">
+                    <span>Phone Number <span class="req-star" aria-hidden="true">*</span></span>
+                    <span class="form-hint" style="margin: 0;">10 digits</span>
+                  </label>
+                  <input 
+                    type="tel" 
+                    id="res-phone" 
+                    name="phone" 
+                    class="form-control" 
+                    placeholder="e.g. 9812345678" 
+                    maxlength="10"
+                    pattern="[0-9]{10}"
+                    required 
+                    autocomplete="tel"
+                  >
+                  <span id="res-phone-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Email Address (Optional) -->
+                <div class="form-group">
+                  <label for="res-email" class="form-label">
+                    <span>Email Address</span>
+                    <span class="optional-tag">Optional</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="res-email" 
+                    name="email" 
+                    class="form-control" 
+                    placeholder="name@example.com" 
+                    autocomplete="email"
+                  >
+                  <span id="res-email-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Date (Required, not in the past) -->
+                <div class="form-group">
+                  <label for="res-date" class="form-label">
+                    <span>Reservation Date <span class="req-star" aria-hidden="true">*</span></span>
+                  </label>
+                  <input 
+                    type="date" 
+                    id="res-date" 
+                    name="date" 
+                    class="form-control" 
+                    required
+                  >
+                  <span id="res-date-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Time (Required, between 8:00 AM and 9:30 PM) -->
+                <div class="form-group">
+                  <label for="res-time" class="form-label">
+                    <span>Seating Time <span class="req-star" aria-hidden="true">*</span></span>
+                    <span class="form-hint" style="margin:0;">8:00 AM – 9:30 PM</span>
+                  </label>
+                  <input 
+                    type="time" 
+                    id="res-time" 
+                    name="time" 
+                    class="form-control" 
+                    min="08:00" 
+                    max="21:30" 
+                    value="10:00"
+                    required
+                  >
+                  <span id="res-time-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Number of Guests (Required, 1 to 12) -->
+                <div class="form-group">
+                  <label for="res-guests" class="form-label">
+                    <span>Number of Guests <span class="req-star" aria-hidden="true">*</span></span>
+                    <span class="form-hint" style="margin:0;">1 to 12</span>
+                  </label>
+                  <input 
+                    type="number" 
+                    id="res-guests" 
+                    name="guests" 
+                    class="form-control" 
+                    min="1" 
+                    max="12" 
+                    value="2" 
+                    required
+                  >
+                  <span id="res-guests-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Seating Preference (Radio: Main room, Window bar, Terrace, No preference - Required) -->
+                <div class="form-group form-col-full">
+                  <label class="form-label">
+                    <span>Seating Preference <span class="req-star" aria-hidden="true">*</span></span>
+                  </label>
+                  <div class="seating-radio-group">
+                    <label class="seating-radio-label checked">
+                      <input type="radio" name="seating_preference" value="Main room" checked>
+                      <span class="seating-name">Main Room</span>
+                      <span class="seating-desc">Soft jazz & bookshelf</span>
+                    </label>
+                    <label class="seating-radio-label">
+                      <input type="radio" name="seating_preference" value="Window bar">
+                      <span class="seating-name">Window Bar</span>
+                      <span class="seating-desc">Natural daylight</span>
+                    </label>
+                    <label class="seating-radio-label">
+                      <input type="radio" name="seating_preference" value="Terrace">
+                      <span class="seating-name">Terrace</span>
+                      <span class="seating-desc">Hill views · Pet friendly</span>
+                    </label>
+                    <label class="seating-radio-label">
+                      <input type="radio" name="seating_preference" value="No preference">
+                      <span class="seating-name">No Preference</span>
+                      <span class="seating-desc">First available table</span>
+                    </label>
+                  </div>
+                  <span id="res-seating-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Occasion (Dropdown: Just coffee, Date, Birthday, Business meeting, Other - Optional) -->
+                <div class="form-group">
+                  <label for="res-occasion" class="form-label">
+                    <span>Occasion</span>
+                    <span class="optional-tag">Optional</span>
+                  </label>
+                  <select id="res-occasion" name="occasion" class="form-control">
+                    <option value="Just coffee">Just coffee & conversation</option>
+                    <option value="Date">A quiet date</option>
+                    <option value="Birthday">Birthday celebration</option>
+                    <option value="Business meeting">Business meeting</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <!-- Bringing a Pet Checkbox (Optional) -->
+                <div class="form-group" style="justify-content: center;">
+                  <label class="custom-checkbox-wrapper" for="res-pet">
+                    <input type="checkbox" id="res-pet" name="bringing_pet">
+                    <span class="checkbox-label-text">
+                      <strong>Bringing a pet companion?</strong>
+                      <span style="display:block; font-size:0.75rem; color:var(--text-muted);">We warmly welcome pets on our terrace.</span>
+                    </span>
+                  </label>
+                </div>
+
+                <!-- Gentle Suggestion Notice if pet is checked without terrace -->
+                <div class="form-col-full">
+                  <div id="pet-terrace-notice" class="pet-terrace-notice" role="status">
+                    <svg class="pet-notice-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="16" x2="12" y2="12"></line>
+                      <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                    <div class="pet-notice-text">
+                      We adore four-legged companions! Guests bringing pets are gently hosted on our open garden terrace with fresh mountain air and dedicated water bowls. 
+                      <button type="button" id="btn-switch-terrace" class="btn-switch-terrace">Switch seating to Garden Terrace?</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Special Requests (Textarea, Optional) -->
+                <div class="form-group form-col-full">
+                  <label for="res-special" class="form-label">
+                    <span>Special Requests or Notes</span>
+                    <span class="optional-tag">Optional</span>
+                  </label>
+                  <textarea 
+                    id="res-special" 
+                    name="special_requests" 
+                    rows="3" 
+                    class="form-control" 
+                    placeholder="Dietary preferences, anniversary arrangements, or specific quiet corner preference..."
+                  ></textarea>
+                </div>
+
+                <!-- Consent Checkbox (Required) -->
+                <div class="form-group form-col-full">
+                  <label class="custom-checkbox-wrapper" for="res-consent">
+                    <input type="checkbox" id="res-consent" name="consent_contact" required>
+                    <span class="checkbox-label-text">
+                      I consent to be contacted by phone call or WhatsApp by the Coffee & Cuddles team to confirm my table reservation. <span class="req-star" aria-hidden="true">*</span>
+                    </span>
+                  </label>
+                  <span id="res-consent-error" class="field-error-msg" role="alert"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-col-full" style="margin-top: 1rem;">
+                  <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    Confirm Table Request
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </button>
+                  <p style="text-align:center; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.75rem;">
+                    No payment or card required. We hold tables for up to 15 minutes past reservation time.
+                  </p>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+          <!-- 2. On Successful Submission: Replaces Form with Confirmation Receipt -->
+          <div id="reservation-confirmation-card" class="reservation-confirmation-card" role="region" aria-live="assertive">
+            <div class="confirm-seal">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="confirm-title">Table Requested</h3>
+            <p class="confirm-sub">
+              Thank you! Digvijay and Vaishnavi have received your reservation request. We look forward to welcoming you to our sanctuary on Rajpur Road.
+            </p>
+
+            <div class="confirm-receipt">
+              <div class="receipt-row">
+                <span class="receipt-label">Guest Name</span>
+                <span class="receipt-val" id="conf-guest-name">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Date</span>
+                <span class="receipt-val" id="conf-date">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Time</span>
+                <span class="receipt-val" id="conf-time">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Party Size</span>
+                <span class="receipt-val" id="conf-guests">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Seating Preference</span>
+                <span class="receipt-val" id="conf-seating">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Contact</span>
+                <span class="receipt-val" id="conf-contact">—</span>
+              </div>
+              <div class="receipt-row">
+                <span class="receipt-label">Pet Accompanying</span>
+                <span class="receipt-val" id="conf-pet">No</span>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" id="btn-new-reservation" class="btn btn-secondary btn-sm">
+                Make Another Reservation
+              </button>
+              <a href="#menu" class="btn btn-primary btn-sm">
+                Browse The Coffee Menu
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Visit Us & Map
+         ======================================================================== -->
+    <section id="visit" class="section-visit" aria-label="Visit Us & Contact">
+      <div class="container">
+        <div class="visit-grid">
+          <div class="visit-info fade-in-section">
+            <span class="section-eyebrow">Find Your Way</span>
+            <h2 class="section-title">Visit Us on Rajpur Road</h2>
+            <p class="section-subtitle">
+              Located on the quiet winding stretch of Rajpur Road heading toward the Mussoorie toll. Cool mountain mornings, pine trees, and parking right outside.
+            </p>
+
+            <div class="visit-info-list">
+              <!-- Address -->
+              <div class="visit-info-item">
+                <div class="visit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="visit-text">
+                  <strong>Address</strong>
+                  <p>Coffee & Cuddles, Rajpur Road, Dehradun, Uttarakhand 248009</p>
+                </div>
+              </div>
+
+              <!-- Opening Hours -->
+              <div class="visit-info-item">
+                <div class="visit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="visit-text">
+                  <strong>Opening Hours</strong>
+                  <p>8:00 AM to 10:00 PM, all seven days of the week</p>
+                </div>
+              </div>
+
+              <!-- Phone and WhatsApp (Clickable mobile dialler!) -->
+              <div class="visit-info-item">
+                <div class="visit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="visit-text">
+                  <strong>Phone & WhatsApp</strong>
+                  <p>
+                    <a href="tel:+919800000000" title="Tap to call from phone">+91 98XXX XXXXX</a> 
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">(Tappable dialler)</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="visit-info-item">
+                <div class="visit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="visit-text">
+                  <strong>Email</strong>
+                  <p><a href="mailto:hello@coffeeandcuddles.in">hello@coffeeandcuddles.in</a></p>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="visit-info-item">
+                <div class="visit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="visit-text">
+                  <strong>Instagram</strong>
+                  <p><a href="https://instagram.com/coffeeandcuddles" target="_blank" rel="noopener">@coffeeandcuddles</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dehradun Foothills Map Visual Card -->
+          <div class="map-placeholder-card fade-in-section">
+            <img 
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" 
+              alt="Misty scenic foothills of Dehradun and Mussoorie"
+              loading="lazy"
+            >
+            <div class="map-overlay-badge">
+              <strong>Rajpur Road · Foot of the Hills</strong>
+              <p>Short drive from Mussoorie training academy & JNU memories. Ample free parking on premises.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4 class="brand-name">Coffee & Cuddles</h4>
+          <p>
+            A calm, considered specialty coffee house founded by Digvijay Kaushal & Vaishnavi Sharma. Single-origin roasts, quiet jazz, and stories from sixty nations.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">The Coffee Menu</a>
+            <a href="#space">The Space</a>
+            <a href="#workshops">Brewing Classes</a>
+            <a href="#reservations">Reservations</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Specialty Roasts</h5>
+          <div class="footer-links">
+            <a href="#menu" onclick="highlightInMenu('hills-special')">Hills Special (Coorg)</a>
+            <a href="#menu" onclick="highlightInMenu('ethiopian-coffee-ceremony')">Ethiopian Ceremony</a>
+            <a href="#menu" onclick="highlightInMenu('vietnamese-egg-coffee')">Vietnamese Egg Coffee</a>
+            <a href="#menu" onclick="highlightInMenu('kerala-filter-kaapi')">Kerala Filter Kaapi</a>
+            <a href="#menu" onclick="highlightInMenu('v60-pour-over')">Tokyo V60 Pour Over</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <div class="footer-links">
+            <a href="tel:+919800000000">+91 98XXX XXXXX</a>
+            <a href="mailto:hello@coffeeandcuddles.in">hello@coffeeandcuddles.in</a>
+            <span style="font-size:0.85rem; color:var(--text-muted);">Rajpur Road, Dehradun</span>
+          </div>
+          <div class="social-links" style="margin-top: 1.25rem;">
+            <a href="https://instagram.com/coffeeandcuddles" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/919800000000" class="social-btn" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Coffee & Cuddles. Conceived in Addis Ababa, roasted on Rajpur Road.
+        </div>
+        <div>
+          Crafted with quiet restraint and care for Digvijay Kaushal & Vaishnavi Sharma.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Subtle Floating Ambient Vinyl / Jazz Audio Widget
+       ======================================================================== -->
+  <div class="audio-widget">
+    <button id="btn-ambient-sound" class="btn-ambient-sound" title="Toggle gentle cafe vinyl & acoustic chords">
+      <div class="sound-bars" aria-hidden="true">
+        <span class="sound-bar"></span>
+        <span class="sound-bar"></span>
+        <span class="sound-bar"></span>
+      </div>
+      <span class="sound-btn-text">Play Cafe Atmosphere</span>
+    </button>
+  </div>
+
+  <!-- ========================================================================
+       Gallery & Origin Modal Lightbox
+       ======================================================================== -->
+  <div id="gallery-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close dialog">✕</button>
+      <div style="aspect-ratio: 16/10; overflow:hidden;">
+        <img id="modal-img" src="" alt="Gallery Image" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div style="padding: 2rem;">
+        <h3 id="modal-title" style="font-size: 1.6rem; margin-bottom: 0.5rem;"></h3>
+        <div id="modal-caption" style="color: var(--text-secondary); line-height: 1.7;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/menu-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
